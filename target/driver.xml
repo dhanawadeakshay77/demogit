@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="after test before test annotation">
+  <test name="after test before test annotation">
+     <classes>
+           <class name="org.TestNG.test.testng_practice.DemoAnnotations">
+           
+           </class>
+     </classes>
+  </test>
+    <test name="General sanity">
+       <classes>
+          <class name="org.TestNG.test.testng_practice.Amazon">
+          </class>
+       </classes>   
+    </test>
+</suite>

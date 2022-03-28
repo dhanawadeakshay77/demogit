@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Ebay_saniy test suite">
+   <test name="sanity">
+     <classes>
+         <class  name="org.TestNG.test.testng_practice.Ebay_sanity"/>
+         <class name="org.TestNG.test.testng_practice.Amazon"/>
+
+     </classes>
+   </test>
+</suite>
